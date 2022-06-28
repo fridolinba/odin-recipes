@@ -1,3 +1,21 @@
 *{
     font-family: "Liberation Mono", Verdana, Georgia, "Times New Roman";
+    background-color: ivory;
+    text-align: center;
+}
+
+
+.first-page{
+    background-color: white;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(128,0,0);
+}
+
+.leaf{
+    width: 1400px;
+    height: auto;
 }
