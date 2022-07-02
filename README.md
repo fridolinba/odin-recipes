@@ -6,3 +6,5 @@ Skills tested:
   -Git workflow basics
 
   -HTML links, images, lists
+  
+  -CSS id & class selectors and some basic properties
