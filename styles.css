@@ -23,3 +23,18 @@ h1{
 .list{
     list-style: none;
 } 
+
+/* unvisited link */
+a:link {
+    color: rgb(0,0,139);
+  }
+  
+/* visited link */
+a:visited {
+    color: brown;
+  }
+  
+/* mouse over link */
+a:hover{
+    color: #6b8e23;
+}
