@@ -2,6 +2,7 @@
     font-family: "Liberation Mono", Verdana, Georgia, "Times New Roman";
     background-color: ivory;
     text-align: center;
+    /*border: 2px solid red;*/
 }
 
 
@@ -24,6 +25,10 @@ h1{
     list-style: none;
 } 
 
+li{
+    padding: 10px;
+}
+
 /* unvisited link */
 a:link {
     color: rgb(0,0,139);
@@ -32,9 +37,19 @@ a:link {
 /* visited link */
 a:visited {
     color: brown;
-  }
+  } 
   
 /* mouse over link */
 a:hover{
     color: #6b8e23;
+}
+
+/* footer with fixed position in the viewport */
+footer {
+    position: fixed; 
+    color: ivory;
+    background-color: #6b8e23;
+    font-size: 20px; 
+    bottom: 1.5cm;
+    width: 100%;
 }
