@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+    }
+
+*, *::before, *::after {
+                      box-sizing: inherit;
+                      } 
+
 *{
     font-family: "Liberation Mono", Verdana, Georgia, "Times New Roman";
     background-color: ivory;
@@ -52,4 +60,24 @@ footer {
     font-size: 20px; 
     bottom: 1.5cm;
     width: 100%;
+}
+
+.flex_container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+}
+
+.flex-item {
+    flex-basis: 300px;
+    background-color: ivory;
+    height: 50px;
+    border: 2px dashed brown;
+}
+
+ul {
+    padding:0%;
 }
