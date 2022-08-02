@@ -7,4 +7,4 @@ Skills tested:
 
   -HTML links, images, lists
   
-  -CSS id & class selectors, some basic properties, pseudo-classes ('hover')
+  -CSS id & class selectors, some basic properties, pseudo-classes ('hover'), Flexbox basics
